@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontWeight: {
+        "semibold-bold": 650,
+      },
+    },
   },
   plugins: [],
 };
