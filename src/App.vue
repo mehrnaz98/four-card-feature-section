@@ -7,7 +7,7 @@
       <h2 class="font-semibold-bold">Powered by Technology</h2>
     </header>
     <main>
-      <p>
+      <p class="text-[0.938rem]">
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
