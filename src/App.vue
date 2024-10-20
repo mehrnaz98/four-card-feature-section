@@ -2,9 +2,9 @@
   <section
     class="bg-[#FAFAFA] min-h-screen flex flex-col justify-center items-center"
   >
-    <header>
-      <h1>Reliable, efficient delivery</h1>
-      <h2>Powered by Technology</h2>
+    <header class="text-[2.2rem]">
+      <h1 class="font-light">Reliable, efficient delivery</h1>
+      <h2 class="font-semibold-bold">Powered by Technology</h2>
     </header>
     <main>
       <p>
