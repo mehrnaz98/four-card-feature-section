@@ -11,7 +11,12 @@
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
-      <BaseCard />
+      <base-card
+        v-for="(item, index) in cards"
+        :key="index"
+        :border-color="item.borderColor"
+        :img-src="item.imgSrc"
+      ></base-card>
     </main>
   </section>
 </template>
