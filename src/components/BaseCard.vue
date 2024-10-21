@@ -14,3 +14,16 @@
     </div>
   </div>
 </template>
+
+<script setup>
+defineProps({
+  borderColor: {
+    type: String,
+    default: "border-[#45D3D3]",
+  },
+  imgSrc: {
+    type: String,
+    default: "../assets/images/icon-supervisor.svg",
+  },
+});
+</script>
