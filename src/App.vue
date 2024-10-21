@@ -15,3 +15,7 @@
     </main>
   </section>
 </template>
+
+<script setup>
+import BaseCard from "./components/BaseCard.vue";
+</script>
