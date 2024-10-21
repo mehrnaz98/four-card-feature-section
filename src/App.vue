@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-[#FAFAFA] min-h-screen flex flex-col justify-center items-center"
+    class="bg-[#FAFAFA] min-h-screen flex flex-col justify-center items-center p-6"
   >
     <header class="text-[2.2rem]">
       <h1 class="font-light">Reliable, efficient delivery</h1>
