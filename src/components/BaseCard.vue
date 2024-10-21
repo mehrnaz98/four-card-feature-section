@@ -10,11 +10,7 @@
       <slot name="description">Default description text</slot>
     </p>
     <div class="flex justify-end">
-      <img
-        src="../assets/images/icon-supervisor.svg"
-        alt=""
-        class="pt-8 max-w-16"
-      />
+      <img :src="imgSrc" alt="" class="pt-8 max-w-16" />
     </div>
   </div>
 </template>
