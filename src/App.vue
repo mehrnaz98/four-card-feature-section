@@ -7,11 +7,14 @@
       <h2 class="font-semibold-bold">Powered by Technology</h2>
     </header>
     <main>
-      <p class="text-[0.938rem]">
-        Our Artificial Intelligence powered tools use millions of project data
-        points to ensure that your project is successful
-      </p>
       <div class="grid-container">
+    <main class="flex flex-col justify-center items-center">
+      <div class="w-[30rem]">
+        <p class="text-[0.938rem] text-center">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
         <base-card
           v-for="(item, index) in cards"
           :key="index"
