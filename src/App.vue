@@ -33,24 +33,28 @@ import iconCalculator from "./assets/images/icon-calculator.svg";
 
 const cards = [
   {
+    id: "item1",
     heading: "Supervisor",
     description: "Monitors activity to identify project roadblocks",
     imgSrc: iconSupervisor,
     borderColor: "border-[#45D3D3]",
   },
   {
+    id: "item2",
     heading: "Team Builder",
     description: "Builds teams to take on any project",
     imgSrc: iconTeamBuilder,
     borderColor: "border-[#EA5353]",
   },
   {
+    id: "item3",
     heading: "Karma",
     description: "Regularly evaluates our talent to ensure quality",
     imgSrc: iconKarma,
     borderColor: "border-[#FCAF4A]",
   },
   {
+    id: "item4",
     heading: "Calculator",
     description: "Uses data to provide insights on projects",
     imgSrc: iconCalculator,
