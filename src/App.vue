@@ -18,4 +18,31 @@
 
 <script setup>
 import BaseCard from "./components/BaseCard.vue";
+
+const cards = [
+  {
+    heading: "Supervisor",
+    description: "Monitors activity to identify project roadblocks",
+    imgSrc: "../assets/images/icon-supervisor.svg",
+    borderColor: "border-[#45D3D3]",
+  },
+  {
+    heading: "Team Builder",
+    description: "Builds teams to take on any project",
+    imgSrc: "../assets/images/icon-team-builder.svg",
+    borderColor: "border-[#EA5353]",
+  },
+  {
+    heading: "Karma",
+    description: "Regularly evaluates our talent to ensure quality",
+    imgSrc: "../assets/images/icon-karma.svg",
+    borderColor: "border-[#FCAF4A]",
+  },
+  {
+    heading: "Calculator",
+    description: "Uses data to provide insights on projects",
+    imgSrc: "../assets/images/icon-calculator.svg",
+    borderColor: "border-[#549EF2]",
+  },
+];
 </script>
