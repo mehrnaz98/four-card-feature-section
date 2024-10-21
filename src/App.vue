@@ -6,7 +6,6 @@
       <h1 class="font-light">Reliable, efficient delivery</h1>
       <h2 class="font-semibold-bold">Powered by Technology</h2>
     </header>
-    <main>
       <div class="grid-container">
     <main class="flex flex-col justify-center items-center">
       <div class="w-[30rem]">
