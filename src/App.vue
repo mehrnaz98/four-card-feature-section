@@ -11,15 +11,18 @@
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
-      <base-card
-        v-for="(item, index) in cards"
-        :key="index"
-        :border-color="item.borderColor"
-        :img-src="item.imgSrc"
-      >
-        <template #heading>{{ item.heading }}</template>
-        <template #description>{{ item.description }}</template>
-      </base-card>
+      <div class="grid-container">
+        <base-card
+          v-for="(item, index) in cards"
+          :key="index"
+          :border-color="item.borderColor"
+          :img-src="item.imgSrc"
+          :class="item.id"
+        >
+          <template #heading>{{ item.heading }}</template>
+          <template #description>{{ item.description }}</template>
+        </base-card>
+      </div>
     </main>
   </section>
 </template>
