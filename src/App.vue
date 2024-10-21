@@ -16,7 +16,10 @@
         :key="index"
         :border-color="item.borderColor"
         :img-src="item.imgSrc"
-      ></base-card>
+      >
+        <template #heading>{{ item.heading }}</template>
+        <template #description>{{ item.description }}</template>
+      </base-card>
     </main>
   </section>
 </template>
