@@ -6,7 +6,6 @@
       <h1 class="font-light">Reliable, efficient delivery</h1>
       <h2 class="font-semibold-bold">Powered by Technology</h2>
     </header>
-      <div class="grid-container">
     <main class="flex flex-col justify-center items-center">
       <div class="w-[30rem]">
         <p class="text-[0.938rem] text-center">
@@ -14,6 +13,7 @@
           points to ensure that your project is successful
         </p>
       </div>
+      <div class="grid-container mt-14">
         <base-card
           v-for="(item, index) in cards"
           :key="index"
