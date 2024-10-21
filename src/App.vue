@@ -23,30 +23,34 @@
 
 <script setup>
 import BaseCard from "./components/BaseCard.vue";
+import iconSupervisor from "./assets/images/icon-supervisor.svg";
+import iconTeamBuilder from "./assets/images/icon-team-builder.svg";
+import iconKarma from "./assets/images/icon-karma.svg";
+import iconCalculator from "./assets/images/icon-calculator.svg";
 
 const cards = [
   {
     heading: "Supervisor",
     description: "Monitors activity to identify project roadblocks",
-    imgSrc: "../assets/images/icon-supervisor.svg",
+    imgSrc: iconSupervisor,
     borderColor: "border-[#45D3D3]",
   },
   {
     heading: "Team Builder",
     description: "Builds teams to take on any project",
-    imgSrc: "../assets/images/icon-team-builder.svg",
+    imgSrc: iconTeamBuilder,
     borderColor: "border-[#EA5353]",
   },
   {
     heading: "Karma",
     description: "Regularly evaluates our talent to ensure quality",
-    imgSrc: "../assets/images/icon-karma.svg",
+    imgSrc: iconKarma,
     borderColor: "border-[#FCAF4A]",
   },
   {
     heading: "Calculator",
     description: "Uses data to provide insights on projects",
-    imgSrc: "../assets/images/icon-calculator.svg",
+    imgSrc: iconCalculator,
     borderColor: "border-[#549EF2]",
   },
 ];
