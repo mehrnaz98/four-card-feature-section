@@ -28,3 +28,24 @@
   grid-column: 2;
   grid-row: 3/5;
 }
+
+@media (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
+    grid-column: auto;
+    grid-row: auto;
+    max-width: 27rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
