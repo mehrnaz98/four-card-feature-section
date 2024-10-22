@@ -66,8 +66,6 @@ I want to continue refining my use of CSS Grid for more complex layouts and furt
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs) - Helped me quickly set up responsive styles.
 - [Vue.js Docs](https://vuejs.org) - For better understanding of props and component composition.
 
-Yes, including the colors used in your project can be very helpful! It provides a clear reference for anyone viewing your README and can assist in maintaining consistency if the project is further developed. You can create a section for the color palette and list the colors with their corresponding names or uses. Here’s how you might structure that section:
-
 ### Color Palette
 
 #### Primary
