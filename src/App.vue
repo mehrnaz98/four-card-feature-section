@@ -9,7 +9,7 @@
       <h2 class="poppins-semibold text-[#4C4E61]">Powered by Technology</h2>
     </header>
     <main class="flex flex-col justify-center items-center">
-      <div class="w-[31rem]">
+      <div class="sm:w-[31rem] px-5">
         <p
           class="poppins-regular text-[#A3A5AE] text-[0.85rem] text-center pt-4"
         >
