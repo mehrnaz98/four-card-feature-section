@@ -10,7 +10,9 @@
     </header>
     <main class="flex flex-col justify-center items-center">
       <div class="w-[30rem]">
-        <p class="poppins-regular text-[#A3A5AE] text-[0.938rem] text-center">
+        <p
+          class="poppins-regular text-[#A3A5AE] text-[0.938rem] text-center pt-4"
+        >
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
