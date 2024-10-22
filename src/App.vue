@@ -30,6 +30,7 @@
         </base-card>
       </div>
     </main>
+    <TheFooter />
   </section>
 </template>
 
@@ -39,6 +40,7 @@ import iconSupervisor from "./assets/images/icon-supervisor.svg";
 import iconTeamBuilder from "./assets/images/icon-team-builder.svg";
 import iconKarma from "./assets/images/icon-karma.svg";
 import iconCalculator from "./assets/images/icon-calculator.svg";
+import TheFooter from "./components/TheFooter.vue";
 
 const cards = [
   {
