@@ -46,7 +46,7 @@ const cards = [
     heading: "Supervisor",
     description: "Monitors activity to identify project roadblocks",
     imgSrc: iconSupervisor,
-    borderColor: "border-[#45D3D3]",
+    borderColor: "#45D3D3",
   },
   {
     id: "item2",
@@ -54,21 +54,21 @@ const cards = [
     description:
       "Scans our talent network to craete the optimal team for your project",
     imgSrc: iconTeamBuilder,
-    borderColor: "border-[#EA5353]",
+    borderColor: "#EA5353",
   },
   {
     id: "item3",
     heading: "Karma",
     description: "Regularly evaluates our talent to ensure quality",
     imgSrc: iconKarma,
-    borderColor: "border-[#FCAF4A]",
+    borderColor: "#FCAF4A",
   },
   {
     id: "item4",
     heading: "Calculator",
     description: "Uses data from the past to provide better delivery estimates",
     imgSrc: iconCalculator,
-    borderColor: "border-[#549EF2]",
+    borderColor: "#549EF2",
   },
 ];
 </script>
