@@ -10,7 +10,7 @@
       <slot name="description">Default description text</slot>
     </p>
     <div class="flex justify-end">
-      <img :src="imgSrc" alt="" class="pt-8 max-w-16" />
+      <img :src="imgSrc" alt="" class="pt-8 max-w-14" />
     </div>
   </div>
 </template>
