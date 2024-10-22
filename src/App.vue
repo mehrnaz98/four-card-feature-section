@@ -2,7 +2,7 @@
   <section
     class="bg-[#FAFAFA] min-h-screen flex flex-col justify-center items-center sm:p-6 px-6 py-16"
   >
-    <header class="text-[2rem]">
+    <header class="sm:text-[2rem] text-[1.5rem] text-center">
       <h1 class="poppins-extralight text-[#4C4E61]">
         Reliable, efficient delivery
       </h1>
