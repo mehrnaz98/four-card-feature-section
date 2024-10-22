@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col bg-white shadow-lg max-w-[20rem] rounded-lg p-7 border-t-4"
+    class="flex flex-col bg-white shadow-xl max-w-[20rem] rounded-lg p-7 border-t-4"
     :class="borderColor"
   >
     <h2 class="poppins-semibold text-[1.1rem] text-[#4C4E61]">
