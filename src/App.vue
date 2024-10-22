@@ -3,8 +3,10 @@
     class="bg-[#FAFAFA] min-h-screen flex flex-col justify-center items-center p-6"
   >
     <header class="text-[2rem]">
-      <h1 class="poppins-extralight">Reliable, efficient delivery</h1>
-      <h2 class="poppins-semibold">Powered by Technology</h2>
+      <h1 class="poppins-extralight text-[#4C4E61]">
+        Reliable, efficient delivery
+      </h1>
+      <h2 class="poppins-semibold text-[#4C4E61]">Powered by Technology</h2>
     </header>
     <main class="flex flex-col justify-center items-center">
       <div class="w-[30rem]">
