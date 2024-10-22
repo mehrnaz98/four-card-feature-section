@@ -1,7 +1,7 @@
 <template>
   <div
     class="flex flex-col bg-white shadow-xl max-w-[20rem] rounded-lg p-7 border-t-4"
-    :class="borderColor"
+    :class="[`border-[${borderColor}]`]"
   >
     <h2 class="poppins-semibold text-[1.1rem] text-[#4C4E61]">
       <slot name="heading">Default Heading</slot>
@@ -19,7 +19,7 @@
 defineProps({
   borderColor: {
     type: String,
-    default: "border-[#45D3D3]",
+    default: "#45D3D3",
   },
   imgSrc: {
     type: String,
