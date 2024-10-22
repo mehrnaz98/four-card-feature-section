@@ -17,7 +17,7 @@
           points to ensure that your project is successful
         </p>
       </div>
-      <div class="grid-container mt-14">
+      <div class="grid-container mt-12">
         <base-card
           v-for="(item, index) in cards"
           :key="index"
