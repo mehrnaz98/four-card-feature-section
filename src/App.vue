@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-[#FAFAFA] min-h-screen flex flex-col justify-center items-center p-6"
+    class="bg-[#FAFAFA] min-h-screen flex flex-col justify-center items-center sm:p-6 px-6 py-16"
   >
     <header class="text-[2rem]">
       <h1 class="poppins-extralight text-[#4C4E61]">
