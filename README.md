@@ -28,7 +28,7 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
+### Screenshots
 
 ![Screenshot](./src/assets/screenshots/Screenshot-1.png)
 ![Screenshot](./src/assets/screenshots/Screenshot-2.png)
