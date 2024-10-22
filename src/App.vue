@@ -51,7 +51,8 @@ const cards = [
   {
     id: "item2",
     heading: "Team Builder",
-    description: "Builds teams to take on any project",
+    description:
+      "Scans our talent network to craete the optimal team for your project",
     imgSrc: iconTeamBuilder,
     borderColor: "border-[#EA5353]",
   },
@@ -65,7 +66,7 @@ const cards = [
   {
     id: "item4",
     heading: "Calculator",
-    description: "Uses data to provide insights on projects",
+    description: "Uses data from the past to provide better delivery estimates",
     imgSrc: iconCalculator,
     borderColor: "border-[#549EF2]",
   },
